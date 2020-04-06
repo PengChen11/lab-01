@@ -1,0 +1,66 @@
+@media only screen and (max-width: 767px){
+  main {
+    width:480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #a {
+    width:480px;
+    height: 75px;
+    line-height: 75px;
+  }
+  
+  #b {
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+  }
+  
+  #c {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+  }
+  
+  #d {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+  }
+  
+  #e {
+    width: 240px;
+    height: 250px;
+    float: left;
+    line-height: 250px;
+  }
+  
+  #f {
+    width: 240px;
+    height: 250px;
+    float: left;
+    line-height: 250px;
+  }
+  
+  #g {
+    width: 240px;
+    height: 250px;
+    float: left;
+    line-height: 250px;
+  }
+  
+  #h {
+    width: 240px;
+    height: 250px;
+    float: left;
+    line-height: 250px;
+  }
+  
+  #i {
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+    clear: both;
+  }
+}
