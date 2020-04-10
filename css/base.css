@@ -2,3 +2,29 @@ body {
   font-size: 20px;
   text-align: center;
 }
+/* Desktop view */
+@media only screen and (min-width: 768px){
+  main {
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 190px 190px 190px 190px;
+    grid-template-rows: 100px 200px 250px 150px;
+  }
+}
+/* mobile view */
+@media only screen and (max-width: 767px){
+  main {
+    width:480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+  }
+}
+
+div {
+  display: grid;
+}

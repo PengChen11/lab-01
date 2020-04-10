@@ -1,69 +1,64 @@
 @media only screen and (min-width: 768px){
-  main {
-    width:960px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   #a {
     width:960px;
     height: 100px;
     line-height: 100px;
+    grid-area: 1/1/2/6;
   }
 
   #b {
     width: 200px;
     height: 600px;
-    float: left;
     line-height: 600px;
+    grid-area: 2/1/5/2;
   }
 
   #c {
     width: 380px;
     height: 200px;
-    float: left;
     line-height: 200px;
+    grid-area: 2/2/3/4;
   }
 
   #d {
     width: 380px;
     height: 200px;
-    float: left;
     line-height: 200px;
+    grid-area: 2/4/3/6;
   }
 
   #e {
     width: 190px;
     height: 250px;
-    float: left;
     line-height: 250px;
+    grid-area: 3/2/4/3;
   }
 
   #f {
     width: 190px;
     height: 250px;
-    float: left;
     line-height: 250px;
+    grid-area: 3/3/4/4;
   }
 
   #g {
     width: 190px;
     height: 250px;
-    float: left;
     line-height: 250px;
+    grid-area: 3/4/4/5;
   }
 
   #h {
     width: 190px;
     height: 250px;
-    float: left;
     line-height: 250px;
+    grid-area: 3/5/4/6;
   }
 
   #i {
     width: 760px;
     height: 150px;
-    float: left;
     line-height: 150px;
+    grid-area: 4/2/5/6;
   }
 }
